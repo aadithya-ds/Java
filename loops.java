@@ -2,7 +2,7 @@ public class loops {
     public static void main(String[] args){
         // If else, elseif, break  Loops - all types , continue - using normal loops 
 
-        //while
+        //while 
          
         int a =0;
         System.out.println("While loop\n");
