@@ -1,5 +1,5 @@
 public class methods {
-
+ 
     public String nmethod() {
         String s = "Calling an method/function";
         return s;
