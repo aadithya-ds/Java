@@ -1,11 +1,11 @@
 public class classobject {
-<<<<<<< HEAD
+
 
     // class and objects and static variable and static methods and constructor.
-=======
+
  
     //class and objects and static variable and static methods and constructor.
->>>>>>> 770d49a8e7f896241bbda9ee83108e85f3840405
+
 
     int x = 5;
     int s, t;
