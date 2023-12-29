@@ -1,96 +1,94 @@
 public class loops {
-    public static void main(String[] args){
-        // If else, elseif, break  Loops - all types , continue - using normal loops 
+    public static void main(String[] args) {
+        // If else, elseif, break Loops - all types , continue - using normal loops
 
-        //while
-         
-        int a =0;
+        // while
+
+        int a = 0;
         System.out.println("While loop\n");
-        while(a<=10){
+        while (a <= 10) {
             System.out.println(a);
-            a+=2;
+            a += 2;
         }
 
-        a=0;
-        //do while
+        a = 0;
+        // do while
         System.out.println("Do-While loop\n");
-        do{
-            System.out.println(a+1);
-            a+=2;
-        }
-        while(a<10);
+        do {
+            System.out.println(a + 1);
+            a += 2;
+        } while (a < 10);
 
-        //for
+        // for
         System.out.println("For loop\n");
 
-        for(int i=1;i<=5;i++){
-            for(int j=1;j<=i;j++){
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*\t");
             }
             System.out.println("");
         }
 
-        a =5;
-        //if 
+        a = 5;
+        // if
         System.out.println("If \n");
-        if(4%2 == 0){
+        if (a % 2 == 0) {
             System.out.println("even number");
         }
 
-        //else-if
+        // else-if
         System.out.println("Else if\n");
 
-        if(a%2 == 0){
+        if (a % 2 == 0) {
             System.out.println("even number");
-        }
-        else{
+        } else {
             System.out.println("odd number");
         }
-        
-        //if elseif else
+
+        // if elseif else
         System.out.println("If else-if else\n");
 
         int time = 22;
         if (time < 10) {
-          System.out.println("Good morning.");
+            System.out.println("Good morning.");
         } else if (time < 18) {
-          System.out.println("Good day.");
+            System.out.println("Good day.");
         } else {
-          System.out.println("Good evening.");
+            System.out.println("Good evening.");
         }
 
-        //ternary operator
+        // ternary operator
         System.out.println("Ternary operator\n");
 
-        System.out.println(time<18 ? "Good day" : "Good Evening");
+        System.out.println(time < 18 ? "Good day" : "Good Evening");
 
-        //switch and break
+        // switch and break
         System.out.println("Switch break\n");
-        int choice =1;
-        switch(choice){
+        int choice = 1;
+        switch (choice) {
             case 1:
-            System.out.println("one");
-            break;
+                System.out.println("one");
+                break;
             case 2:
-            System.out.println("Two");
-            break;
+                System.out.println("Two");
+                break;
             default:
-            System.out.println("Different number");
-            break;
+                System.out.println("Different number");
+                break;
         }
 
-        //break and continue
+        // break and continue
         System.out.println("Break continue\n");
 
-        int n =0;
-         System.out.println(n);
-         while (n==5) {
+        int n = 0;
+        System.out.println(n);
+        while (n == 5) {
             continue;
-         }
-         while (n==10) {
+        }
+        while (n == 10) {
             break;
-         }
-         n+=2;
+        }
+        n += 2;
 
     }
 }

@@ -5,7 +5,7 @@ public class encapsulation {
         Person myobj = new Person();
         myobj.setname("encapsulation example");
 
-        System.out.println("Getting the value " + myobj.getname());
+        System.out.println("Getting value " + myobj.getname());
 
     }
 }
