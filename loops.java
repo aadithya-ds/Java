@@ -1,4 +1,4 @@
-public class loops {
+public class loops { 
     public static void main(String[] args) {
         // If else, elseif, break Loops - all types , continue - using normal loops
 
