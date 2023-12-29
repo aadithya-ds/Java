@@ -2,7 +2,7 @@ public class constructor {
 
     int s,t;
 
-    public constructor(int v,int j){
+    public constructor(int v,int j){ 
         s=v;
         t=j;
      }
