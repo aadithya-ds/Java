@@ -1,5 +1,5 @@
 public class classobject {
-
+ 
     //class and objects and static variable and static methods and constructor.
 
         int x = 5;
