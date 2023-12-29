@@ -3,7 +3,7 @@ public class Datatypes{
         
         //datatypes = int,float,char,boolean,string
 
-        int a= 9;
+        int a= 9; 
         float b =  2.00f;
         char c = 'A';
         boolean d = true;

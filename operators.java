@@ -4,7 +4,7 @@ public class operators {
 
 int a = 5;
 int b = 10;
-
+ 
 System.out.println("Addition : "+ (a+b));
 System.out.println("Subtraction : "+ (b-a));
 System.out.println("Multiplication : "+ (a*b));

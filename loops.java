@@ -2,9 +2,15 @@ public class loops {
     public static void main(String[] args) {
         // If else, elseif, break Loops - all types , continue - using normal loops
 
+<<<<<<< HEAD
         // while
 
         int a = 0;
+=======
+        //while 
+         
+        int a =0;
+>>>>>>> 770d49a8e7f896241bbda9ee83108e85f3840405
         System.out.println("While loop\n");
         while (a <= 10) {
             System.out.println(a);

@@ -7,7 +7,7 @@ public class Instancevariable {
         public Instancevariable(){
                   val = "Instance variable";
         }
-    
+     
     public static void main(String[] args){
 
         Instancevariable mObject = new Instancevariable();
