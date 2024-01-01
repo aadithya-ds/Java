@@ -12,7 +12,7 @@ class Nokia extends Mobile {
 
 }
 
-public class Inheritane {
+public class Inheritance {
 
     public static void main(String[] args) {
         Nokia obj = new Nokia();
