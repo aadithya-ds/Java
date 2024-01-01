@@ -23,12 +23,12 @@ public class Interface implements example, example2 {
 
     @Override
     public void exp1() {
-        System.out.println("thoe it is an interface exp1");
+        System.out.println("those it is an interface exp1");
     }
 
     @Override
     public void exp() {
-        System.out.println("thoe it is an interface exp");
+        System.out.println("those it is an interface exp");
     }
 
 }
