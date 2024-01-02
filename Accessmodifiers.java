@@ -19,6 +19,7 @@ public class Accessmodifiers {
         // public - Classes, methods, or data members that are declared as public are
         // accessible from everywhere in the program.
         A a = new A();
+        System.out.println(a.data);
 
         System.out.println(a.n);
 
